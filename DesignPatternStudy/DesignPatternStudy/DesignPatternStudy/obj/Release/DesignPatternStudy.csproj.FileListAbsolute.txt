@@ -1,0 +1,5 @@
+E:\project\myStudy\VS2015\DesignPatternStudy\DesignPatternStudy\DesignPatternStudy\obj\Release\DesignPatternStudy.csprojResolveAssemblyReference.cache
+E:\project\myStudy\VS2015\DesignPatternStudy\DesignPatternStudy\DesignPatternStudy\bin\Release\DesignPatternStudy.exe
+E:\project\myStudy\VS2015\DesignPatternStudy\DesignPatternStudy\DesignPatternStudy\bin\Release\DesignPatternStudy.pdb
+E:\project\myStudy\VS2015\DesignPatternStudy\DesignPatternStudy\DesignPatternStudy\obj\Release\DesignPatternStudy.exe
+E:\project\myStudy\VS2015\DesignPatternStudy\DesignPatternStudy\DesignPatternStudy\obj\Release\DesignPatternStudy.pdb
