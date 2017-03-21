@@ -54,6 +54,7 @@
     <Compile Include="FactoryPattern\Human.cs" />
     <Compile Include="FactoryPattern\HumanFactory.cs" />
     <Compile Include="FactoryPattern\HumanFactorySimple.cs" />
+    <Compile Include="OtherTest\TestClone.cs" />
     <Compile Include="ProductGroup\ConcreteCreator.cs" />
     <Compile Include="ProductGroup\ConcreteProduct1.cs" />
     <Compile Include="ProductGroup\ConcreteProduct2.cs" />
@@ -64,7 +65,11 @@
     <Compile Include="FactoryPattern\YellowHumancs.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ProtoTypePattern\AdvTemplete.cs" />
+    <Compile Include="ProtoTypePattern\Client.cs" />
+    <Compile Include="ProtoTypePattern\Mail.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

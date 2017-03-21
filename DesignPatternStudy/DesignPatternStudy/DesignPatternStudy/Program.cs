@@ -2,6 +2,8 @@
 using DesignPatternStudy.FactoryPattern.FactoryMulti;
 using DesignPatternStudy.ProductGroup;
 using System;
+using DesignPatternStudy.ProtoTypePattern;
+using DesignPatternStudy.OtherTest;
 
 namespace DesignPatternStudy
 {
@@ -30,6 +32,21 @@ namespace DesignPatternStudy
             //product.method2();
 
             //Console.WriteLine("time=" + DateTime.Now.Ticks);
+
+            //原型模式demo
+            Client.TestFunc();
+
+            //深浅拷贝的demo
+            //TestClone clone1 = new TestClone();
+            //TestClone clone2 = new TestClone();
+            //clone1.testStr.Add("name1");
+            //clone2.testStr.Add("name1");
+            //Console.WriteLine("clone1=" + clone1.testStr.Count+
+            //    ",clone2=" + clone2.testStr.Count
+            //    + ",clone1.num=" + clone1.number
+            //    + ",clone3.num=" + clone2.number
+            //    +clone1.Equals(clone2)
+            //    ); 
 
             Console.ReadLine();
         }

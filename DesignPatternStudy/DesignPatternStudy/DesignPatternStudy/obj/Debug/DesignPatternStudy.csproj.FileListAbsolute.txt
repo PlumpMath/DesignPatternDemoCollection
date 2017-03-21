@@ -3,3 +3,8 @@ E:\project\myStudy\VS2015\DesignPatternStudy\DesignPatternStudy\DesignPatternStu
 E:\project\myStudy\VS2015\DesignPatternStudy\DesignPatternStudy\DesignPatternStudy\bin\Debug\DesignPatternStudy.pdb
 E:\project\myStudy\VS2015\DesignPatternStudy\DesignPatternStudy\DesignPatternStudy\obj\Debug\DesignPatternStudy.exe
 E:\project\myStudy\VS2015\DesignPatternStudy\DesignPatternStudy\DesignPatternStudy\obj\Debug\DesignPatternStudy.pdb
+E:\myGit\DesignPatternDemoCollection\DesignPatternStudy\DesignPatternStudy\DesignPatternStudy\obj\Debug\DesignPatternStudy.exe
+E:\myGit\DesignPatternDemoCollection\DesignPatternStudy\DesignPatternStudy\DesignPatternStudy\obj\Debug\DesignPatternStudy.pdb
+E:\myGit\DesignPatternDemoCollection\DesignPatternStudy\DesignPatternStudy\DesignPatternStudy\bin\Debug\DesignPatternStudy.exe
+E:\myGit\DesignPatternDemoCollection\DesignPatternStudy\DesignPatternStudy\DesignPatternStudy\bin\Debug\DesignPatternStudy.pdb
+E:\myGit\DesignPatternDemoCollection\DesignPatternStudy\DesignPatternStudy\DesignPatternStudy\obj\Debug\DesignPatternStudy.csprojResolveAssemblyReference.cache
