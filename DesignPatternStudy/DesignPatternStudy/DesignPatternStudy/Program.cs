@@ -4,6 +4,7 @@ using DesignPatternStudy.ProductGroup;
 using System;
 using DesignPatternStudy.ProtoTypePattern;
 using DesignPatternStudy.OtherTest;
+using DesignPatternStudy.CommandPattern;
 
 namespace DesignPatternStudy
 {
@@ -34,7 +35,7 @@ namespace DesignPatternStudy
             //Console.WriteLine("time=" + DateTime.Now.Ticks);
 
             //原型模式demo
-            Client.TestFunc();
+         //   Client.TestFunc();
 
             //深浅拷贝的demo
             //TestClone clone1 = new TestClone();
@@ -47,6 +48,9 @@ namespace DesignPatternStudy
             //    + ",clone3.num=" + clone2.number
             //    +clone1.Equals(clone2)
             //    ); 
+
+            //命令模式demo
+            TestClient.testFunc();
 
             Console.ReadLine();
         }

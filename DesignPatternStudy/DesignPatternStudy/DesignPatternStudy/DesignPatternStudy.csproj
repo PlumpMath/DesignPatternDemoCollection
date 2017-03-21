@@ -43,6 +43,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CommandPattern\Command.cs" />
+    <Compile Include="CommandPattern\ConcreteCommand1.cs" />
+    <Compile Include="CommandPattern\ConcreteCommand2.cs" />
+    <Compile Include="CommandPattern\ConcreteReceiver1.cs" />
+    <Compile Include="CommandPattern\ConcreteReceiver2.cs" />
+    <Compile Include="CommandPattern\Invoker.cs" />
+    <Compile Include="CommandPattern\Receiver.cs" />
+    <Compile Include="CommandPattern\TestClient.cs" />
     <Compile Include="FactoryPattern\AbstractHumanFactory.cs" />
     <Compile Include="FactoryPattern\BlackHuman.cs" />
     <Compile Include="FactoryPattern\DelayInit\ProductFactoryDelay.cs" />
