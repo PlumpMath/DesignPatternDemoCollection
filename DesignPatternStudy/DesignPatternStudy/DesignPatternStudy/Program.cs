@@ -8,6 +8,7 @@ using DesignPatternStudy.CommandPattern;
 using DesignPatternStudy.ChainofResponsbilityPattern;
 using DesignPatternStudy.StrategyPattern;
 using DesignPatternStudy.IteratorPattern;
+using DesignPatternStudy.ObserverPattern;
 
 namespace DesignPatternStudy
 {
@@ -62,8 +63,11 @@ namespace DesignPatternStudy
             //StrategyDemo.main();
 
             //迭代器模式
-            IteratorDemo.main();
+            //IteratorDemo.main();
 
+            //观察者模式
+            ObserverDemo.main();
+           
             Console.ReadLine();
         }
 

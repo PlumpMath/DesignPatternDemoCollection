@@ -75,6 +75,12 @@
     <Compile Include="IteratorPattern\ConcreteIterator.cs" />
     <Compile Include="IteratorPattern\Iterator.cs" />
     <Compile Include="IteratorPattern\IteratorDemo.cs" />
+    <Compile Include="ObserverPattern\HanFeiZi.cs" />
+    <Compile Include="ObserverPattern\IHanFeiZi.cs" />
+    <Compile Include="ObserverPattern\Lisi.cs" />
+    <Compile Include="ObserverPattern\Observer.cs" />
+    <Compile Include="ObserverPattern\Observerable.cs" />
+    <Compile Include="ObserverPattern\ObserverDemo.cs" />
     <Compile Include="OtherTest\TestClone.cs" />
     <Compile Include="ProductGroup\ConcreteCreator.cs" />
     <Compile Include="ProductGroup\ConcreteProduct1.cs" />
@@ -95,9 +101,7 @@
     <Compile Include="StrategyPattern\Strategy.cs" />
     <Compile Include="StrategyPattern\StrategyDemo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="DecoratorPattern\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
