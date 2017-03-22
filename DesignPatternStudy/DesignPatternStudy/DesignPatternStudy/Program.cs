@@ -7,6 +7,7 @@ using DesignPatternStudy.OtherTest;
 using DesignPatternStudy.CommandPattern;
 using DesignPatternStudy.ChainofResponsbilityPattern;
 using DesignPatternStudy.StrategyPattern;
+using DesignPatternStudy.IteratorPattern;
 
 namespace DesignPatternStudy
 {
@@ -58,7 +59,10 @@ namespace DesignPatternStudy
             //HandlerDemo.main();
 
             //策略模式
-            StrategyDemo.main();
+            //StrategyDemo.main();
+
+            //迭代器模式
+            IteratorDemo.main();
 
             Console.ReadLine();
         }

@@ -70,6 +70,11 @@
     <Compile Include="FactoryPattern\Human.cs" />
     <Compile Include="FactoryPattern\HumanFactory.cs" />
     <Compile Include="FactoryPattern\HumanFactorySimple.cs" />
+    <Compile Include="IteratorPattern\Aggregate.cs" />
+    <Compile Include="IteratorPattern\ConcreteAggregate.cs" />
+    <Compile Include="IteratorPattern\ConcreteIterator.cs" />
+    <Compile Include="IteratorPattern\Iterator.cs" />
+    <Compile Include="IteratorPattern\IteratorDemo.cs" />
     <Compile Include="OtherTest\TestClone.cs" />
     <Compile Include="ProductGroup\ConcreteCreator.cs" />
     <Compile Include="ProductGroup\ConcreteProduct1.cs" />
