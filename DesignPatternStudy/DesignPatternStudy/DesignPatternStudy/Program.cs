@@ -9,6 +9,8 @@ using DesignPatternStudy.ChainofResponsbilityPattern;
 using DesignPatternStudy.StrategyPattern;
 using DesignPatternStudy.IteratorPattern;
 using DesignPatternStudy.ObserverPattern;
+using DesignPatternStudy.VisitorPattern;
+using DesignPatternStudy.ExpressPattern;
 
 namespace DesignPatternStudy
 {
@@ -66,8 +68,15 @@ namespace DesignPatternStudy
             //IteratorDemo.main();
 
             //观察者模式
-            ObserverDemo.main();
-           
+            //ObserverDemo.main();
+
+            //访问者模式
+            //VisitorDemo.main();
+
+            //解释器模式
+            ExpressionDemo.main();
+
+
             Console.ReadLine();
         }
 

@@ -59,6 +59,13 @@
     <Compile Include="CommandPattern\Invoker.cs" />
     <Compile Include="CommandPattern\Receiver.cs" />
     <Compile Include="CommandPattern\TestClient.cs" />
+    <Compile Include="ExpressPattern\AddExpression.cs" />
+    <Compile Include="ExpressPattern\Calculator.cs" />
+    <Compile Include="ExpressPattern\Expression.cs" />
+    <Compile Include="ExpressPattern\ExpressionDemo.cs" />
+    <Compile Include="ExpressPattern\SubExpression.cs" />
+    <Compile Include="ExpressPattern\SymbolExpression.cs" />
+    <Compile Include="ExpressPattern\VarExpression.cs" />
     <Compile Include="FactoryPattern\AbstractHumanFactory.cs" />
     <Compile Include="FactoryPattern\BlackHuman.cs" />
     <Compile Include="FactoryPattern\DelayInit\ProductFactoryDelay.cs" />
@@ -95,11 +102,21 @@
     <Compile Include="ProtoTypePattern\AdvTemplete.cs" />
     <Compile Include="ProtoTypePattern\Client.cs" />
     <Compile Include="ProtoTypePattern\Mail.cs" />
+    <Compile Include="StatePattern\ConcreteState1.cs" />
+    <Compile Include="StatePattern\Context.cs" />
+    <Compile Include="StatePattern\State.cs" />
     <Compile Include="StrategyPattern\ConcreteStrategy.cs" />
     <Compile Include="StrategyPattern\ConcreteStrategy2.cs" />
     <Compile Include="StrategyPattern\Context.cs" />
     <Compile Include="StrategyPattern\Strategy.cs" />
     <Compile Include="StrategyPattern\StrategyDemo.cs" />
+    <Compile Include="VisitorPattern\ConcreteElement1.cs" />
+    <Compile Include="VisitorPattern\ConcreteElement2.cs" />
+    <Compile Include="VisitorPattern\Element.cs" />
+    <Compile Include="VisitorPattern\IVisitor.cs" />
+    <Compile Include="VisitorPattern\ObjectStructure.cs" />
+    <Compile Include="VisitorPattern\Visitor.cs" />
+    <Compile Include="VisitorPattern\VisitorDemo.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
