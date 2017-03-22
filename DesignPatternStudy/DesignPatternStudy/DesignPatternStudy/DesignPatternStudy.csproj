@@ -43,14 +43,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ChainofResponsbilityPattern\ConcreteHandler1.cs" />
-    <Compile Include="ChainofResponsbilityPattern\ConcreteHandler2.cs" />
-    <Compile Include="ChainofResponsbilityPattern\ConcreteHandler3.cs" />
-    <Compile Include="ChainofResponsbilityPattern\Handler.cs" />
-    <Compile Include="ChainofResponsbilityPattern\HandlerDemo.cs" />
-    <Compile Include="ChainofResponsbilityPattern\Level.cs" />
-    <Compile Include="ChainofResponsbilityPattern\Request1.cs" />
-    <Compile Include="ChainofResponsbilityPattern\Response.cs" />
+    <Compile Include="ChainofResponsibilityPattern\ConcreteHandler1.cs" />
+    <Compile Include="ChainofResponsibilityPattern\ConcreteHandler2.cs" />
+    <Compile Include="ChainofResponsibilityPattern\ConcreteHandler3.cs" />
+    <Compile Include="ChainofResponsibilityPattern\Handler.cs" />
+    <Compile Include="ChainofResponsibilityPattern\HandlerDemo.cs" />
+    <Compile Include="ChainofResponsibilityPattern\Level.cs" />
+    <Compile Include="ChainofResponsibilityPattern\Request1.cs" />
+    <Compile Include="ChainofResponsibilityPattern\Response.cs" />
     <Compile Include="CommandPattern\Command.cs" />
     <Compile Include="CommandPattern\ConcreteCommand1.cs" />
     <Compile Include="CommandPattern\ConcreteCommand2.cs" />
@@ -84,8 +84,15 @@
     <Compile Include="ProtoTypePattern\AdvTemplete.cs" />
     <Compile Include="ProtoTypePattern\Client.cs" />
     <Compile Include="ProtoTypePattern\Mail.cs" />
+    <Compile Include="StrategyPattern\ConcreteStrategy.cs" />
+    <Compile Include="StrategyPattern\ConcreteStrategy2.cs" />
+    <Compile Include="StrategyPattern\Context.cs" />
+    <Compile Include="StrategyPattern\Strategy.cs" />
+    <Compile Include="StrategyPattern\StrategyDemo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="DecoratorPattern\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

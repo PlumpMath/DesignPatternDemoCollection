@@ -6,6 +6,7 @@ using DesignPatternStudy.ProtoTypePattern;
 using DesignPatternStudy.OtherTest;
 using DesignPatternStudy.CommandPattern;
 using DesignPatternStudy.ChainofResponsbilityPattern;
+using DesignPatternStudy.StrategyPattern;
 
 namespace DesignPatternStudy
 {
@@ -54,7 +55,10 @@ namespace DesignPatternStudy
             //TestClient.testFunc();
 
             //责任链模式
-            HandlerDemo.main();
+            //HandlerDemo.main();
+
+            //策略模式
+            StrategyDemo.main();
 
             Console.ReadLine();
         }
