@@ -5,6 +5,7 @@ using System;
 using DesignPatternStudy.ProtoTypePattern;
 using DesignPatternStudy.OtherTest;
 using DesignPatternStudy.CommandPattern;
+using DesignPatternStudy.ChainofResponsbilityPattern;
 
 namespace DesignPatternStudy
 {
@@ -25,7 +26,7 @@ namespace DesignPatternStudy
             //SingletonFactory.getSingleton() .doSomeThing();
 
             //工厂用作缓存对象
-            FactoryCacheTest();
+            //FactoryCacheTest();
 
             //Console.WriteLine("time=" + DateTime.Now.Ticks);
             //Creator creator = new ConcreteCreator();
@@ -35,7 +36,7 @@ namespace DesignPatternStudy
             //Console.WriteLine("time=" + DateTime.Now.Ticks);
 
             //原型模式demo
-         //   Client.TestFunc();
+            //   Client.TestFunc();
 
             //深浅拷贝的demo
             //TestClone clone1 = new TestClone();
@@ -50,7 +51,10 @@ namespace DesignPatternStudy
             //    ); 
 
             //命令模式demo
-            TestClient.testFunc();
+            //TestClient.testFunc();
+
+            //责任链模式
+            HandlerDemo.main();
 
             Console.ReadLine();
         }

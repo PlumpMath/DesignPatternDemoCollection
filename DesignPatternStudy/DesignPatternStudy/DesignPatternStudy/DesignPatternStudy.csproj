@@ -43,6 +43,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ChainofResponsbilityPattern\ConcreteHandler1.cs" />
+    <Compile Include="ChainofResponsbilityPattern\ConcreteHandler2.cs" />
+    <Compile Include="ChainofResponsbilityPattern\ConcreteHandler3.cs" />
+    <Compile Include="ChainofResponsbilityPattern\Handler.cs" />
+    <Compile Include="ChainofResponsbilityPattern\HandlerDemo.cs" />
+    <Compile Include="ChainofResponsbilityPattern\Level.cs" />
+    <Compile Include="ChainofResponsbilityPattern\Request1.cs" />
+    <Compile Include="ChainofResponsbilityPattern\Response.cs" />
     <Compile Include="CommandPattern\Command.cs" />
     <Compile Include="CommandPattern\ConcreteCommand1.cs" />
     <Compile Include="CommandPattern\ConcreteCommand2.cs" />
