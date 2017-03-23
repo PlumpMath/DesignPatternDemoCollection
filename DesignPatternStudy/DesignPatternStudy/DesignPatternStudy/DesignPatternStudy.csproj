@@ -43,6 +43,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BridgePattern\Abstraction.cs" />
+    <Compile Include="BridgePattern\BridgeDemo.cs" />
+    <Compile Include="BridgePattern\ConcreteImplementer1.cs" />
+    <Compile Include="BridgePattern\ConcreteImplementer2.cs" />
+    <Compile Include="BridgePattern\Implementer.cs" />
+    <Compile Include="BridgePattern\RefinedAbstraction.cs" />
+    <Compile Include="BuilderPattern\BenzBuilder.cs" />
+    <Compile Include="BuilderPattern\Blueprint.cs" />
+    <Compile Include="BuilderPattern\BMWBuilder.cs" />
+    <Compile Include="BuilderPattern\BuilderDemo.cs" />
+    <Compile Include="BuilderPattern\Car.cs" />
+    <Compile Include="BuilderPattern\CarBuilder.cs" />
+    <Compile Include="BuilderPattern\Director.cs" />
+    <Compile Include="BuilderPattern\ICar.cs" />
     <Compile Include="ChainofResponsibilityPattern\ConcreteHandler1.cs" />
     <Compile Include="ChainofResponsibilityPattern\ConcreteHandler2.cs" />
     <Compile Include="ChainofResponsibilityPattern\ConcreteHandler3.cs" />
@@ -77,6 +91,13 @@
     <Compile Include="FactoryPattern\Human.cs" />
     <Compile Include="FactoryPattern\HumanFactory.cs" />
     <Compile Include="FactoryPattern\HumanFactorySimple.cs" />
+    <Compile Include="FlyweightPattern\ConcreteFlyweight1.cs" />
+    <Compile Include="FlyweightPattern\ConcreteFlyweight2.cs" />
+    <Compile Include="FlyweightPattern\ExtrinsicState.cs" />
+    <Compile Include="FlyweightPattern\Flyweight.cs" />
+    <Compile Include="FlyweightPattern\FlyweightDemo.cs" />
+    <Compile Include="FlyweightPattern\FlyweightFactory.cs" />
+    <Compile Include="FlyweightPattern\SignInfoFactory.cs" />
     <Compile Include="IteratorPattern\Aggregate.cs" />
     <Compile Include="IteratorPattern\ConcreteAggregate.cs" />
     <Compile Include="IteratorPattern\ConcreteIterator.cs" />
@@ -88,7 +109,6 @@
     <Compile Include="ObserverPattern\Observer.cs" />
     <Compile Include="ObserverPattern\Observerable.cs" />
     <Compile Include="ObserverPattern\ObserverDemo.cs" />
-    <Compile Include="OtherTest\TestClone.cs" />
     <Compile Include="ProductGroup\ConcreteCreator.cs" />
     <Compile Include="ProductGroup\ConcreteProduct1.cs" />
     <Compile Include="ProductGroup\ConcreteProduct2.cs" />
@@ -118,7 +138,9 @@
     <Compile Include="VisitorPattern\Visitor.cs" />
     <Compile Include="VisitorPattern\VisitorDemo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="OtherTest\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

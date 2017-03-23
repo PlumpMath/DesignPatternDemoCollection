@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace DesignPatternStudy.ObserverPattern
 {
-    public class Observer
+    public abstract class Observer
     {
-        public void update(string context)
+        public virtual void update(string context)
         {
             Console.WriteLine("this=" + this + ",context=" + context);
         }

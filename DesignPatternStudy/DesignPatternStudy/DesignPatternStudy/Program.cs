@@ -3,7 +3,6 @@ using DesignPatternStudy.FactoryPattern.FactoryMulti;
 using DesignPatternStudy.ProductGroup;
 using System;
 using DesignPatternStudy.ProtoTypePattern;
-using DesignPatternStudy.OtherTest;
 using DesignPatternStudy.CommandPattern;
 using DesignPatternStudy.ChainofResponsbilityPattern;
 using DesignPatternStudy.StrategyPattern;
@@ -11,6 +10,9 @@ using DesignPatternStudy.IteratorPattern;
 using DesignPatternStudy.ObserverPattern;
 using DesignPatternStudy.VisitorPattern;
 using DesignPatternStudy.ExpressPattern;
+using DesignPatternStudy.FlyweightPattern;
+using DesignPatternStudy.BridgePattern;
+using DesignPatternStudy.BuilderPattern;
 
 namespace DesignPatternStudy
 {
@@ -74,8 +76,16 @@ namespace DesignPatternStudy
             //VisitorDemo.main();
 
             //解释器模式
-            ExpressionDemo.main();
+            //ExpressionDemo.main();
 
+            //享元模式
+            //FlyweightDemo.main();
+
+            //桥梁模式
+            //BridgeDemo.main();没有输出
+
+            //建造者模式
+            BuilderDemo.main();
 
             Console.ReadLine();
         }

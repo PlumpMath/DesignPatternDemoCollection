@@ -8,7 +8,7 @@ namespace DesignPatternStudy.ObserverPattern
 {
     public class Lisi : Observer
     {
-        public void update(string str)
+        public override void update(string str)
         {
             this.reportToQinshihuang(str);
         }
